@@ -4,10 +4,10 @@ api:
 - 1.13.0
 load: POSTWORLD
 
-name: ManyWorlds
-description: Manage Multiple Worlds
-version: 2.0.3
-author: aliuly
+name: World
+description: Create many worlds! #MNetwork
+version: 1.0.0
+author: Sheep
 
 commands:
   manyworlds:
@@ -19,7 +19,7 @@ commands:
 permissions:
   mw.cmds:
     default: true
-    description: "Allow all the ManyWorlds functionality"
+    description: "Allow all the Worlds functionality"
   mw.cmd.tp:
     default: op
     description: "Allows users to travel to other worlds"
